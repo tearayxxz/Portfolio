@@ -432,7 +432,9 @@ header .navbar ul li a:hover{
 
 /*Project css*/
 .projectbody{
-    background: var(--green);
+    background-color:var(--green);
+    overflow-x: hidden;
+    padding-left: 0px;
 }
 
 .Topic {
