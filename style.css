@@ -38,7 +38,7 @@ html::-webkit-scrollbar-thumb{
     background:var(--yellow);
 }
 
-.indexbody{
+body{
     background-color:var(--green);
     overflow-x: hidden;
     padding-left: 350px;
@@ -312,6 +312,21 @@ header .navbar ul li a:hover{
     font-size: 4rem;
     color:var(--yellow);
 }
+
+.skills .Interesting{
+    text-shadow: 3px  3px 0 #000,-1px -1px 0 #000, 1px -1px 0 #000,-1px  1px 0 #000, 1px  1px 0 #000;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.skills .Interesting span{
+    text-shadow: 3px  3px 0 #000,-1px -1px 0 #000, 1px -1px 0 #000,-1px  1px 0 #000, 1px  1px 0 #000;
+    text-align: center;
+    color: var(--yellow);
+    font-size: 30px;
+}
+
 .education {
     text-shadow: 3px  3px 0 #000,-1px -1px 0 #000, 1px -1px 0 #000,-1px  1px 0 #000, 1px  1px 0 #000;
 }
@@ -377,16 +392,6 @@ header .navbar ul li a:hover{
     text-decoration: 5px underline var(--yellow); 
 }
 
-.etc .Assignment{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-
-.etc .Assignment .box{
-    margin: 10px;
-}
-
 .etc .row .counter{
     flex:1 1 48rem;
     display: flex;
@@ -397,6 +402,7 @@ header .navbar ul li a:hover{
 .etc .row .counter .box{
     height: 200px;
     width:260px;
+    border: 0.5px solid var(--black);
     border-radius: 10px;
     margin:20px;
     overflow: hidden;
